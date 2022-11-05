@@ -1,9 +1,14 @@
-.container{
+.container {
   padding: 0px 5px;
   min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.navigation, .footer{
+.navigation,
+.footer {
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -11,25 +16,43 @@
   padding: 10px;
   min-height: 10vh;
   background-color: #beb8aa;
+  cursor: pointer;
 }
 
-.footer{
+.navigation p {
+  font-size: large;
+}
+
+.navigation p:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  color: #9b3438;
+}
+
+.routeLink{
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
   position: absolute;
   bottom: 0;
-  width: 96.5%;
+  right: 10px;
+  left: 10px;
 }
 
-.logo{
-  flex:2;
+.logo {
+  flex: 2;
 }
 
-.navigation .links{
+.navigation .links {
   flex: 2;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.contentDisplay{
-  padding: 5px;
+.contentDisplay {
+  border: 1px solid red;
+  padding: 15px 10px;
 }
