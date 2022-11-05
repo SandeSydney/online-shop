@@ -9,7 +9,6 @@ import WomensClothing from '../Components/WomenClothing/WomensClothing'
 function RoutesComp() {
     return (
         <Routes>
-
             <Route path='/' element={<AllItems />} />
 
             <Route exact path='/electronics' element={<Electronics />} />
