@@ -1,8 +1,9 @@
 import React from 'react'
+import RoutesComp from '../../Routes/RoutesComp'
 
 function ContentDisplay() {
   return (
-    <div className='contentDisplay'>ContentDisplay</div>
+    <RoutesComp />
   )
 }
 
