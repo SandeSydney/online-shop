@@ -1,9 +1,9 @@
 import React from 'react'
+import useItemsGetter from '../../Hooks/useItemsGetter'
 
 function Jewelery() {
-  return (
-    <div>Jewelery</div>
-  )
+  const jewelery = useItemsGetter('https://fakestoreapi.com/products/category/jewelery')
+  return jewelery
 }
 
 export default Jewelery

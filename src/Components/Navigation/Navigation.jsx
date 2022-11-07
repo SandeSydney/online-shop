@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom'
 function Navigation() {
   return (
     <div className='navigation'>
-      <div className='logo'>Logo</div>
+      <div className='logo'>
+        <Link className='routeLink' to={'/'}>
+          <p>ONLINE SHOP</p>
+        </Link>
+      </div>
       <div className='links'>
         <Link className='routeLink' to={'/electronics'}>
           <p>Electronics</p>
